@@ -1,7 +1,7 @@
 #DigitalOcean DNS Update
 
-cur_dir=$(pwd)
-token=$(cat $cur_dir/do-secret)
+cd "${BASH_SOURCE%/*}"
+token=$(cat ./do-secret)
 my_ip=$(curl -s icanhazip.com)
 my_domain="shareanddave.com"
 sub_domain="home"
