@@ -3,6 +3,8 @@
 FILTER_BIN="$(which konwert)"
 FILTER_OPTS="cp437-utf8"
 
+clear
+
 echo
 echo "Connecting to alt.org..."
 echo
