@@ -18,7 +18,7 @@ fi
 
 POD=$1
 NUM_TERMS=$2
-EVE_NG="192.168.150.11"
+EVE_NG="eve-ng"
 
 session="EVE-NG_LAB"
 
